@@ -1,0 +1,175 @@
+[
+    {
+        "problem_type": "BimaterialLoadMaximization",
+        "criterion": "Composite L1Rankine2D/L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "alpha": 0.99,
+        "penalization": true,
+        "pmax": 2,
+        "niter_max": 20,
+        "experiment": "bimaterial_fc_1.0_ft_1.0_cost_0.1"
+    },
+    {
+        "problem_type": "BimaterialLoadMaximization",
+        "criterion": "Composite L1Rankine2D/L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "alpha": 0.99,
+        "penalization": true,
+        "pmax": 2,
+        "niter_max": 20,
+        "experiment": "bimaterial_fc_1.0_ft_1.0_cost_0.25"
+    },
+    {
+        "problem_type": "BimaterialLoadMaximization",
+        "criterion": "Composite L1Rankine2D/L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "alpha": 0.99,
+        "penalization": true,
+        "pmax": 2,
+        "niter_max": 20,
+        "experiment": "bimaterial_fc_1.0_ft_1.0_cost_0.5"
+    },
+    {
+        "problem_type": "BimaterialLoadMaximization",
+        "criterion": "Composite L1Rankine2D/L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "alpha": 0.99,
+        "penalization": true,
+        "pmax": 2,
+        "niter_max": 20,
+        "experiment": "bimaterial_fc_1.0_ft_1.0_cost_0.75"
+    },
+    {
+        "problem_type": "BimaterialLoadMaximization",
+        "criterion": "Composite L1Rankine2D/L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "alpha": 0.99,
+        "penalization": true,
+        "pmax": 2,
+        "niter_max": 20,
+        "experiment": "bimaterial_fc_1.0_ft_1.0_cost_0.9"
+    },
+    {
+        "problem_type": "BimaterialLoadMaximization",
+        "criterion": "Composite L1Rankine2D/L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "alpha": 0.99,
+        "penalization": true,
+        "pmax": 3,
+        "niter_max": 20,
+        "experiment": "frac_02_bimaterial_fc_1.0_ft_1.0"
+    },
+    {
+        "problem_type": "BimaterialLoadMaximization",
+        "criterion": "Composite L1Rankine2D/L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "alpha": 0.99,
+        "penalization": true,
+        "pmax": 3,
+        "niter_max": 20,
+        "experiment": "frac_02_bimaterial_fc_1.0_ft_10.0"
+    },
+    {
+        "problem_type": "BimaterialLoadMaximization",
+        "criterion": "Composite L1Rankine2D/L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "alpha": 0.99,
+        "penalization": true,
+        "pmax": 3,
+        "niter_max": 20,
+        "experiment": "frac_02_bimaterial_fc_10.0_ft_1.0"
+    },
+    {
+        "problem_type": "LoadMaximization",
+        "criterion": "L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "penalization": true,
+        "pmax": 3,
+        "niter_max": 20,
+        "experiment": "frac_02_single_material_fc_1.0_ft_1.0"
+    },
+    {
+        "problem_type": "LoadMaximization",
+        "criterion": "L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "penalization": true,
+        "pmax": 3,
+        "niter_max": 20,
+        "experiment": "frac_02_single_material_fc_1.0_ft_10.0"
+    },
+    {
+        "problem_type": "LoadMaximization",
+        "criterion": "L1Rankine2D",
+        "rho_interp": [
+            "CG",
+            1
+        ],
+        "rho_min": 0.0,
+        "length_control": 0.1,
+        "volume_fraction": 0.2,
+        "penalization": true,
+        "pmax": 3,
+        "niter_max": 20,
+        "experiment": "frac_02_single_material_fc_10.0_ft_1.0"
+    }
+]
