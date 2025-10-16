@@ -1,0 +1,1 @@
+{"problem_type": "BimaterialLoadMaximization", "criterion": "Composite L1Rankine2D/L1Rankine2D", "rho_interp": ["CG", 1], "rho_min": 0.0, "length_control": 0.1, "volume_fraction": 0.2, "alpha": 0.99, "penalization": true, "pmax": 3, "niter_max": 20}

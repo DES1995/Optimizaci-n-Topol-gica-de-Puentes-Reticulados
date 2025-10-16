@@ -1,0 +1,488 @@
+<?xml version="1.0"?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="3.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <Domain>
+    <Grid Name="TimeSeries" GridType="Collection" CollectionType="Temporal">
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/0/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/0/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="1" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/0</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/1</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/2</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/3</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/4</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/5/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/5/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="2" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/5</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/6</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/7</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/8</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/9</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/10/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/10/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="3" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/10</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/11</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/12</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/13</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/14</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/15/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/15/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="4" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/15</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/16</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/17</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/18</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/19</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/20/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/20/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="5" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/20</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/21</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/22</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/23</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/24</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/25/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/25/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="6" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/25</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/26</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/27</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/28</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/29</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/30/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/30/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="7" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/30</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/31</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/32</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/33</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/34</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/35/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/35/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="8" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/35</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/36</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/37</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/38</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/39</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/40/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/40/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="9" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/40</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/41</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/42</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/43</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/44</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/45/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/45/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="10" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/45</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/46</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/47</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/48</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/49</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/50/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/50/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="11" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/50</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/51</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/52</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/53</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/54</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/55/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/55/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="12" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/55</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/56</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/57</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/58</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/59</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/60/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/60/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="13" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/60</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/61</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/62</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/63</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/64</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/65/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/65/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="14" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/65</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/66</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/67</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/68</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/69</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/70/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/70/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="15" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/70</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/71</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/72</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/73</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/74</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/75/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/75/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="16" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/75</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/76</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/77</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/78</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/79</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/80/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/80/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="17" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/80</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/81</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/82</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/83</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/84</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/85/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/85/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="18" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/85</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/86</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/87</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/88</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/89</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/90/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/90/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="19" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/90</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/91</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/92</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/93</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/94</DataItem>
+        </Attribute>
+      </Grid>
+      <Grid Name="mesh" GridType="Uniform">
+        <Topology NumberOfElements="20000" TopologyType="Triangle" NodesPerElement="3">
+          <DataItem Dimensions="20000 3" NumberType="UInt" Format="HDF">results.h5:/Mesh/95/mesh/topology</DataItem>
+        </Topology>
+        <Geometry GeometryType="XY">
+          <DataItem Dimensions="10151 2" Format="HDF">results.h5:/Mesh/95/mesh/geometry</DataItem>
+        </Geometry>
+        <Time Value="20" />
+        <Attribute Name="Density" AttributeType="Scalar" Center="Node">
+          <DataItem Dimensions="10151 1" Format="HDF">results.h5:/VisualisationVector/95</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled minor principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/96</DataItem>
+        </Attribute>
+        <Attribute Name="Scaled major principal direction" AttributeType="Vector" Center="Cell">
+          <DataItem Dimensions="20000 3" Format="HDF">results.h5:/VisualisationVector/97</DataItem>
+        </Attribute>
+        <Attribute Name="f_18930" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/98</DataItem>
+        </Attribute>
+        <Attribute Name="Displacement" AttributeType="Vector" Center="Node">
+          <DataItem Dimensions="10151 3" Format="HDF">results.h5:/VisualisationVector/99</DataItem>
+        </Attribute>
+      </Grid>
+    </Grid>
+  </Domain>
+</Xdmf>
